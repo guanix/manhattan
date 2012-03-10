@@ -1,3 +1,15 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 08 Mar 2012 03:25:04 PM EST
+EESchema-DOCLIB  Version 2.0  Date: Sat 10 Mar 2012 02:49:43 PM EST
+#
+$CMP AP7313
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MC78M05CDTX
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
 #
 #End Doc Library
