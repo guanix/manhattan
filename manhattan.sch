@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 12 Mar 2012 12:50:54 PM EDT
+EESchema Schematic File Version 2  date Mon 12 Mar 2012 03:13:13 PM EDT
 LIBS:manhattan
 LIBS:power
 LIBS:device
@@ -46,8 +46,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 8550 7500 0    120  ~ 0
-Stepper current control
+Wire Wire Line
+	7800 7450 7800 7400
+Connection ~ 14250 4350
+Wire Wire Line
+	14250 4550 14250 4350
+Wire Wire Line
+	13450 4350 15950 4350
+Wire Wire Line
+	14800 5750 14800 5300
+Connection ~ 14800 5750
 Wire Notes Line
 	12450 7350 8550 7350
 Wire Notes Line
@@ -146,8 +154,6 @@ Wire Wire Line
 Wire Wire Line
 	15950 5750 12700 5750
 Connection ~ 14300 5750
-Wire Wire Line
-	14800 5750 14800 5300
 Connection ~ 13600 5750
 Wire Wire Line
 	13600 5300 13600 5750
@@ -168,8 +174,6 @@ Wire Wire Line
 Wire Wire Line
 	13600 4750 13600 4900
 Connection ~ 13450 4350
-Wire Wire Line
-	14800 4350 14800 4550
 Wire Notes Line
 	12450 4100 8550 4100
 Wire Notes Line
@@ -231,9 +235,9 @@ Wire Notes Line
 Wire Notes Line
 	6150 10300 6150 5950
 Wire Wire Line
-	7600 6400 7600 6550
+	7600 6200 7600 6350
 Wire Wire Line
-	7600 6550 7700 6550
+	7600 6350 7700 6350
 Connection ~ 7700 8000
 Wire Wire Line
 	7700 8100 7700 7800
@@ -1078,9 +1082,9 @@ Connection ~ 7500 8600
 Wire Notes Line
 	6150 5950 8450 5950
 Wire Wire Line
-	7700 6750 7600 6750
+	7700 6550 7600 6550
 Wire Wire Line
-	7600 6750 7600 6900
+	7600 6550 7600 6700
 Wire Wire Line
 	6800 8100 6800 7800
 Connection ~ 6800 8000
@@ -1131,10 +1135,7 @@ Wire Wire Line
 Wire Wire Line
 	13450 4550 13600 4550
 Wire Wire Line
-	13450 4350 15950 4350
-Wire Wire Line
 	15950 4350 15950 4550
-Connection ~ 14800 4350
 Wire Wire Line
 	14800 4750 14800 4900
 Wire Wire Line
@@ -1158,7 +1159,6 @@ Wire Wire Line
 Connection ~ 13900 5750
 Wire Wire Line
 	15050 5750 15050 5600
-Connection ~ 14800 5750
 Wire Notes Line
 	12550 5900 12550 4100
 Wire Notes Line
@@ -1213,6 +1213,48 @@ Wire Wire Line
 	11450 8150 11150 8150
 Connection ~ 11900 8350
 Connection ~ 11900 8250
+Wire Wire Line
+	14750 4550 14800 4550
+Wire Wire Line
+	7800 6900 7800 6850
+$Comp
+L MOTGND #PWR?
+U 1 1 4F5E4AAC
+P 7800 7500
+F 0 "#PWR?" H 7800 7500 30  0001 C CNN
+F 1 "MOTGND" H 7800 7430 30  0001 C CNN
+	1    7800 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F?
+U 1 1 4F5E4AA4
+P 7800 7150
+F 0 "F?" H 7900 7200 40  0000 C CNN
+F 1 "5A" H 7700 7100 40  0000 C CNN
+	1    7800 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L VMOT #PWR?
+U 1 1 4F5E4AA0
+P 7800 6850
+F 0 "#PWR?" H 7800 7000 30  0001 C CNN
+F 1 "VMOT" H 7800 7000 30  0000 C CNN
+	1    7800 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F?
+U 1 1 4F5E4A7C
+P 14500 4550
+F 0 "F?" H 14600 4600 40  0000 C CNN
+F 1 "20A" H 14400 4500 40  0000 C CNN
+	1    14500 4550
+	1    0    0    -1  
+$EndComp
+Text Notes 8550 7500 0    120  ~ 0
+Stepper current control
 NoConn ~ 11150 8350
 NoConn ~ 11150 8250
 Text Label 11150 8150 0    60   ~ 0
@@ -1628,28 +1670,28 @@ $EndComp
 $Comp
 L LOGICGND #PWR?
 U 1 1 4F5B9D07
-P 7600 6950
-F 0 "#PWR?" H 7600 6950 30  0001 C CNN
-F 1 "LOGICGND" H 7600 6880 30  0001 C CNN
-	1    7600 6950
+P 7600 6750
+F 0 "#PWR?" H 7600 6750 30  0001 C CNN
+F 1 "LOGICGND" H 7600 6680 30  0001 C CNN
+	1    7600 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L VMOT #PWR?
 U 1 1 4F5B9D04
-P 7600 6400
-F 0 "#PWR?" H 7600 6550 30  0001 C CNN
-F 1 "VMOT" H 7600 6550 30  0000 C CNN
-	1    7600 6400
+P 7600 6200
+F 0 "#PWR?" H 7600 6350 30  0001 C CNN
+F 1 "VMOT" H 7600 6350 30  0000 C CNN
+	1    7600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_2 P?
 U 1 1 4F5B9CFE
-P 8050 6650
-F 0 "P?" V 8000 6650 40  0000 C CNN
-F 1 "CONN_2" V 8100 6650 40  0000 C CNN
-	1    8050 6650
+P 8050 6450
+F 0 "P?" V 8000 6450 40  0000 C CNN
+F 1 "CONN_2" V 8100 6450 40  0000 C CNN
+	1    8050 6450
 	1    0    0    -1  
 $EndComp
 Text Notes 6150 6100 0    120  ~ 0
