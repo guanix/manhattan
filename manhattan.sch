@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 10 Mar 2012 04:14:28 PM EST
+EESchema Schematic File Version 2  date Mon 12 Mar 2012 12:50:54 PM EDT
 LIBS:manhattan
 LIBS:power
 LIBS:device
@@ -38,7 +38,7 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 mar 2012"
+Date "12 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,8 +46,70 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 10150 6100 0    120  ~ 0
-Expansion header
+Text Notes 8550 7500 0    120  ~ 0
+Stepper current control
+Wire Notes Line
+	12450 7350 8550 7350
+Wire Notes Line
+	12450 7350 12450 9100
+Wire Notes Line
+	12450 9100 8550 9100
+Wire Notes Line
+	8550 9100 8550 7350
+Connection ~ 11900 8050
+Wire Wire Line
+	11150 8050 11900 8050
+Wire Wire Line
+	9750 8250 10050 8250
+Wire Wire Line
+	9750 8050 10050 8050
+Wire Wire Line
+	9750 8550 10050 8550
+Wire Wire Line
+	11450 7850 11150 7850
+Connection ~ 11200 8450
+Wire Wire Line
+	11200 7950 11200 8900
+Wire Wire Line
+	11200 7950 11150 7950
+Connection ~ 10600 8900
+Wire Wire Line
+	11200 8900 10000 8900
+Connection ~ 11900 7750
+Wire Wire Line
+	11900 7650 11900 8650
+Wire Wire Line
+	11900 8650 11700 8650
+Connection ~ 9300 7750
+Wire Wire Line
+	9300 7650 9300 8650
+Wire Wire Line
+	9300 8650 9500 8650
+Wire Wire Line
+	10000 8650 10050 8650
+Wire Wire Line
+	11150 7750 11200 7750
+Wire Wire Line
+	10000 7750 10050 7750
+Wire Wire Line
+	11150 8650 11200 8650
+Wire Wire Line
+	9300 7750 9500 7750
+Wire Wire Line
+	11900 7750 11700 7750
+Wire Wire Line
+	10000 8450 10050 8450
+Wire Wire Line
+	10600 8900 10600 9000
+Wire Wire Line
+	10050 7950 10000 7950
+Wire Wire Line
+	10000 7950 10000 8900
+Connection ~ 10000 8450
+Wire Wire Line
+	11450 8550 11150 8550
+Wire Wire Line
+	9750 7850 10050 7850
 Wire Notes Line
 	12450 5950 10150 5950
 Wire Notes Line
@@ -1140,6 +1202,109 @@ Wire Wire Line
 	12200 6800 11750 6800
 Wire Wire Line
 	12200 7000 11750 7000
+Wire Wire Line
+	11150 8450 11200 8450
+Wire Wire Line
+	9750 8150 10050 8150
+Wire Wire Line
+	10000 8350 10050 8350
+Connection ~ 10000 8350
+Wire Wire Line
+	11450 8150 11150 8150
+Connection ~ 11900 8350
+Connection ~ 11900 8250
+NoConn ~ 11150 8350
+NoConn ~ 11150 8250
+Text Label 11150 8150 0    60   ~ 0
+POTSDO
+$Comp
+L MCP4362 DP?
+U 1 1 4F5E2698
+P 10600 8200
+F 0 "DP?" H 10600 8750 60  0000 C CNN
+F 1 "MCP4362" H 10600 7650 60  0000 C CNN
+	1    10600 8200
+	1    0    0    -1  
+$EndComp
+Text Label 9750 8250 0    60   ~ 0
+POTSDI
+Text Label 9750 8150 0    60   ~ 0
+POTSCK
+Text Label 9750 8050 0    60   ~ 0
+POTCS
+Text Label 9750 7950 0    60   ~ 0
+E-REF
+Text Label 11200 7950 0    60   ~ 0
+Z-REF
+Text Label 9750 8550 0    60   ~ 0
+Y-REF
+Text Label 11200 8550 0    60   ~ 0
+X-REF
+$Comp
+L LOGICGND #PWR?
+U 1 1 4F5E241E
+P 10600 9050
+F 0 "#PWR?" H 10600 9050 30  0001 C CNN
+F 1 "LOGICGND" H 10600 8980 30  0001 C CNN
+	1    10600 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4F5E2407
+P 11900 7650
+F 0 "#PWR?" H 11900 7800 30  0001 C CNN
+F 1 "VCC" H 11900 7800 30  0000 C CNN
+	1    11900 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4F5E2404
+P 9300 7650
+F 0 "#PWR?" H 9300 7800 30  0001 C CNN
+F 1 "VCC" H 9300 7800 30  0000 C CNN
+	1    9300 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4F5E23E1
+P 11450 8650
+F 0 "R?" V 11530 8650 50  0000 C CNN
+F 1 "20K" V 11450 8650 50  0000 C CNN
+	1    11450 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4F5E23DC
+P 9750 8650
+F 0 "R?" V 9830 8650 50  0000 C CNN
+F 1 "20K" V 9750 8650 50  0000 C CNN
+	1    9750 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4F5E23D9
+P 11450 7750
+F 0 "R?" V 11530 7750 50  0000 C CNN
+F 1 "20K" V 11450 7750 50  0000 C CNN
+	1    11450 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4F5E23D6
+P 9750 7750
+F 0 "R?" V 9830 7750 50  0000 C CNN
+F 1 "20K" V 9750 7750 50  0000 C CNN
+	1    9750 7750
+	0    1    1    0   
+$EndComp
+Text Notes 10150 6100 0    120  ~ 0
+Expansion header
 $Comp
 L CONN_7X2 P?
 U 1 1 4F5BC3D9
