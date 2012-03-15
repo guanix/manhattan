@@ -1,0 +1,1113 @@
+# EESchema Netlist Version 1.1 created  Fri 16 Mar 2012 12:42:47 PM EDT
+(
+ ( /4F5BB0FA $noname$ BED_CONN1 CONN_2
+  ( 1 N-000057 )
+  ( 2 N-000056 )
+ )
+ ( /4F60B678 SM0603 C1 100n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F5916E2 SM0603 C2 100n
+  ( 1 N-000194 )
+  ( 2 LOGICGND )
+ )
+ ( /4F58F4C1 SM0603 C3 220n
+  ( 1 LOGICGND )
+  ( 2 N-000096 )
+ )
+ ( /4F5A4040 SM0603 C4 100n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F5A4036 SM0603 C5 100n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F58F382 SM0603 C6 100n
+  ( 1 N-000099 )
+  ( 2 N-000098 )
+ )
+ ( /4F58F479 SM0603 C7 100n
+  ( 1 N-000097 )
+  ( 2 VMOT )
+ )
+ ( /4F5A403C SM0603 C8 100n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F591377 SM0603 C9 22pF
+  ( 1 N-000013 )
+  ( 2 LOGICGND )
+ )
+ ( /4F59137C SM0603 C10 22pF
+  ( 1 N-000081 )
+  ( 2 LOGICGND )
+ )
+ ( /4F58F455 SM0603 C11 220n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F60B67C SM0603 C12 100n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F5915D3 SM0603 C13 100n
+  ( 1 N-000016 )
+  ( 2 LOGICGND )
+ )
+ ( /4F591714 SM0603 C14 1uF
+  ( 1 N-000077 )
+  ( 2 LOGICGND )
+ )
+ ( /4F58F40A $noname$ C15 100u
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F58F3E6 SM0603 C16 100n
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F59115B SM0603 C17 220n
+  ( 1 LOGICGND )
+  ( 2 N-000160 )
+ )
+ ( /4F591160 SM0603 C18 100n
+  ( 1 N-000170 )
+  ( 2 N-000162 )
+ )
+ ( /4F59115C SM0603 C19 100n
+  ( 1 N-000161 )
+  ( 2 VMOT )
+ )
+ ( /4F59115D SM0603 C20 220n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F5B98CD $noname$ C21 220uF
+  ( 1 +12V )
+  ( 2 LOGICGND )
+ )
+ ( /4F5B9813 $noname$ C22 10uF
+  ( 1 /E-THERM )
+  ( 2 LOGICGND )
+ )
+ ( /4F59115E $noname$ C23 100u
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F59115F SM0603 C24 100n
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F5BA59C $noname$ C25 10uF
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F5B9816 $noname$ C26 10uF
+  ( 1 /B-THERM )
+  ( 2 LOGICGND )
+ )
+ ( /4F5B9BFB $noname$ C27 10uF
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F5BA608 $noname$ C28 10uF
+  ( 1 +3.3V )
+  ( 2 LOGICGND )
+ )
+ ( /4F5911D4 $noname$ C29 220n
+  ( 1 LOGICGND )
+  ( 2 N-000166 )
+ )
+ ( /4F5911CF SM0603 C30 100n
+  ( 1 N-000164 )
+  ( 2 N-000168 )
+ )
+ ( /4F5911D3 SM0603 C31 100n
+  ( 1 N-000167 )
+  ( 2 VMOT )
+ )
+ ( /4F5911D2 SM0603 C32 220n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F5911D1 $noname$ C33 100u
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F5911D0 SM0603 C34 100n
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F591222 SM0603 C35 220n
+  ( 1 LOGICGND )
+  ( 2 N-000144 )
+ )
+ ( /4F591227 SM0603 C36 100n
+  ( 1 N-000018 )
+  ( 2 N-000014 )
+ )
+ ( /4F591223 SM0603 C37 100n
+  ( 1 N-000145 )
+  ( 2 VMOT )
+ )
+ ( /4F591224 SM0603 C38 220n
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+ )
+ ( /4F591225 $noname$ C39 100u
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F591226 SM0603 C40 100n
+  ( 1 VMOT )
+  ( 2 LOGICGND )
+ )
+ ( /4F5B98FC LED-0805 D1 LED
+  ( 1 N-000009 )
+  ( 2 LOGICGND )
+ )
+ ( /4F60B546 $noname$ DP1 MCP4451
+  ( 1 N-000189 )
+  ( 2 ? )
+  ( 3 LOGICGND )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 LOGICGND )
+  ( 8 LOGICGND )
+  ( 9 /Y-REF )
+  ( 10 N-000191 )
+  ( 11 N-000173 )
+  ( 12 /X-REF )
+  ( 13 LOGICGND )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 LOGICGND )
+  ( 18 LOGICGND )
+  ( 19 /Z-REF )
+  ( 20 N-000184 )
+ )
+ ( /4F59121F $noname$ E0-CONN1 CONN_4
+  ( 1 N-000151 )
+  ( 2 N-000146 )
+  ( 3 N-000150 )
+  ( 4 N-000147 )
+ )
+ ( /4F5E4AA4 $noname$ F1 FUSE
+  ( 1 VMOT )
+  ( 2 +12V )
+ )
+ ( /4F5E4A7C $noname$ F2 20A
+  ( 1 +12V )
+  ( 2 N-000057 )
+ )
+ ( /4F5BB0FD $noname$ FAN_CONN1 CONN_2
+  ( 1 VMOT )
+  ( 2 N-000058 )
+ )
+ ( /4F5BB0F3 $noname$ HOTEND_CONN1 CONN_2
+  ( 1 VMOT )
+  ( 2 N-000060 )
+ )
+ ( /4F5B94E2 $noname$ ISP1 CONN_3X2
+  ( 1 LOGICGND )
+  ( 2 /RESET )
+  ( 3 /MOSI )
+  ( 4 /SCLK )
+  ( 5 LOGICGND )
+  ( 6 /MISO )
+ )
+ ( /4F59161C $noname$ J1 USB
+  ( 1 N-000194 )
+  ( 2 N-000023 )
+  ( 3 N-000022 )
+  ( 4 LOGICGND )
+  ( 5 ? )
+  ( 6 ? )
+ )
+ ( /4F5BB010 $noname$ J2 MICROSD-JT10
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 +3.3V )
+  ( 5 ? )
+  ( 6 LOGICGND )
+  ( 7 ? )
+  ( 8 ? )
+  ( ~ ? )
+ )
+ ( /4F5B85A7 $noname$ JP1 JUMPER
+  ( 1 LOGICGND )
+  ( 2 N-000019 )
+ )
+ ( /4F5B95D1 $noname$ K1 CONN_3
+  ( 1 ? )
+  ( 2 LOGICGND )
+  ( 3 LOGICGND )
+ )
+ ( /4F5B95F6 $noname$ K2 CONN_3
+  ( 1 ? )
+  ( 2 LOGICGND )
+  ( 3 LOGICGND )
+ )
+ ( /4F5B95FA $noname$ K3 CONN_3
+  ( 1 ? )
+  ( 2 LOGICGND )
+  ( 3 LOGICGND )
+ )
+ ( /4F5B9600 $noname$ K4 CONN_3
+  ( 1 ? )
+  ( 2 LOGICGND )
+  ( 3 LOGICGND )
+ )
+ ( /4F58DE06 TQFP_64 MCU1 AT90USB1287-AU
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 N-000194 )
+  ( 4 N-000024 )
+  ( 5 N-000078 )
+  ( 6 LOGICGND )
+  ( 7 N-000077 )
+  ( 8 N-000194 )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 N-000015 )
+  ( 21 LOGICGND )
+  ( 22 LOGICGND )
+  ( 23 N-000081 )
+  ( 24 N-000013 )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 /RX )
+  ( 28 /TX )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 ? )
+  ( 40 ? )
+  ( 41 ? )
+  ( 42 ? )
+  ( 43 N-000019 )
+  ( 44 ? )
+  ( 45 ? )
+  ( 46 ? )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 ? )
+  ( 50 ? )
+  ( 51 ? )
+  ( 52 LOGICGND )
+  ( 53 LOGICGND )
+  ( 54 ? )
+  ( 55 ? )
+  ( 56 ? )
+  ( 57 ? )
+  ( 58 ? )
+  ( 59 ? )
+  ( 60 ? )
+  ( 61 ? )
+  ( 62 N-000016 )
+  ( 63 LOGICGND )
+  ( 64 LOGICGND )
+ )
+ ( /4F5B9724 $noname$ P1 CONN_2
+  ( 1 /E-THERM )
+  ( 2 LOGICGND )
+ )
+ ( /4F5B9CFE $noname$ P2 CONN_2
+  ( 1 +12V )
+  ( 2 LOGICGND )
+ )
+ ( /4F5B972F $noname$ P3 CONN_2
+  ( 1 /B-THERM )
+  ( 2 LOGICGND )
+ )
+ ( /4F5BB4F1 $noname$ P4 CONN_6
+  ( 1 LOGICGND )
+  ( 2 LOGICGND )
+  ( 3 LOGICGND )
+  ( 4 /RX )
+  ( 5 /TX )
+  ( 6 /RESET )
+ )
+ ( /4F5BC3D9 $noname$ P5 CONN_7X2
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+ )
+ ( /4F5BB141 $noname$ Q1 MOSFET_N
+  ( D N-000060 )
+  ( G N-000059 )
+  ( S LOGICGND )
+ )
+ ( /4F5BB162 $noname$ Q2 MOSFET_N
+  ( D N-000056 )
+  ( G N-000029 )
+  ( S LOGICGND )
+ )
+ ( /4F5BB166 $noname$ Q3 MOSFET_N
+  ( D N-000058 )
+  ( G N-000030 )
+  ( S LOGICGND )
+ )
+ ( /4F58F4DC $noname$ R1 0R
+  ( 1 LOGICGND )
+  ( 2 N-000107 )
+ )
+ ( /4F58F509 SM0603 R2 100K
+  ( 1 LOGICGND )
+  ( 2 N-000106 )
+ )
+ ( /4F5B85D7 SM0603 R3 100K
+  ( 1 N-000019 )
+  ( 2 LOGICGND )
+ )
+ ( /4F591649 SM0603 R4 22
+  ( 1 N-000078 )
+  ( 2 N-000022 )
+ )
+ ( /4F59164D SM0603 R5 22
+  ( 1 N-000024 )
+  ( 2 N-000023 )
+ )
+ ( /4F5914F3 SM0603 R6 100K
+  ( 1 LOGICGND )
+  ( 2 N-000015 )
+ )
+ ( /4F58F61F SM1206 R7 0.05R
+  ( 1 N-000125 )
+  ( 2 AGND )
+ )
+ ( /4F58F623 SM1206 R8 0.05R
+  ( 1 N-000129 )
+  ( 2 AGND )
+ )
+ ( /4F59115A SM0805 R9 0R
+  ( 1 LOGICGND )
+  ( 2 N-000159 )
+ )
+ ( /4F591159 SM0603 R10 100K
+  ( 1 LOGICGND )
+  ( 2 N-000181 )
+ )
+ ( /4F5B9765 $noname$ R11 4K7_1%
+  ( 1 LOGICGND )
+  ( 2 /E-THERM )
+ )
+ ( /4F5B98F9 $noname$ R12 R
+  ( 1 LOGICGND )
+  ( 2 N-000009 )
+ )
+ ( /4F591156 SM1206 R13 0.05R
+  ( 1 N-000157 )
+  ( 2 AGND )
+ )
+ ( /4F591155 SM1206 R14 0.05R
+  ( 1 N-000152 )
+  ( 2 AGND )
+ )
+ ( /4F5B976A $noname$ R15 4K7_1%
+  ( 1 LOGICGND )
+  ( 2 /B-THERM )
+ )
+ ( /4F5911D5 SM0805 R16 0R
+  ( 1 LOGICGND )
+  ( 2 N-000165 )
+ )
+ ( /4F5911D6 SM0603 R17 100K
+  ( 1 LOGICGND )
+  ( 2 N-000182 )
+ )
+ ( /4F60B5F7 SM0603 R18 20K
+  ( 1 N-000189 )
+  ( 2 LOGICGND )
+ )
+ ( /4F60B60E SM0603 R19 20K
+  ( 1 N-000191 )
+  ( 2 LOGICGND )
+ )
+ ( /4F60B60B SM0603 R20 20K
+  ( 1 LOGICGND )
+  ( 2 N-000184 )
+ )
+ ( /4F60B616 SM0603 R21 20K
+  ( 1 LOGICGND )
+  ( 2 N-000173 )
+ )
+ ( /4F5911D9 SM1206 R22 0.05R
+  ( 1 N-000178 )
+  ( 2 AGND )
+ )
+ ( /4F5911DA SM1206 R23 0.05R
+  ( 1 N-000171 )
+  ( 2 AGND )
+ )
+ ( /4F5BB1D7 SM0603 R24 100K
+  ( 1 /HOTEND )
+  ( 2 LOGICGND )
+ )
+ ( /4F5BB18F $noname$ R25 100
+  ( 1 N-000059 )
+  ( 2 /HOTEND )
+ )
+ ( /4F591221 SM0805 R26 0R
+  ( 1 LOGICGND )
+  ( 2 N-000017 )
+ )
+ ( /4F591220 SM0603 R27 100K
+  ( 1 LOGICGND )
+  ( 2 N-000195 )
+ )
+ ( /4F5BB1DD SM0603 R28 100K
+  ( 1 /BED )
+  ( 2 LOGICGND )
+ )
+ ( /4F5BB17B $noname$ R29 100
+  ( 1 /BED )
+  ( 2 N-000029 )
+ )
+ ( /4F5BB1E0 SM0603 R30 100K
+  ( 1 /FAN )
+  ( 2 LOGICGND )
+ )
+ ( /4F5BB186 $noname$ R31 100
+  ( 1 N-000030 )
+  ( 2 /FAN )
+ )
+ ( /4F59121D SM1206 R32 0.05R
+  ( 1 N-000148 )
+  ( 2 AGND )
+ )
+ ( /4F59121C SM1206 R33 0.05R
+  ( 1 N-000149 )
+  ( 2 AGND )
+ )
+ ( /4F5914E6 $noname$ RESETSW1 SW_PUSH
+  ( 1 LOGICGND )
+  ( 2 N-000015 )
+ )
+ ( /4F5B9BAD $noname$ U1 MC78M05CDTX
+  ( GND LOGICGND )
+  ( VI VMOT )
+  ( VO LOGICGND )
+ )
+ ( /4F5BA558 SOT23 U2 AP7313
+  ( GND LOGICGND )
+  ( VI VMOT )
+  ( VO +3.3V )
+ )
+ ( /4F5BA967 SO14N U3 TXB0104
+  ( 1 +3.3V )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 7 LOGICGND )
+  ( 8 +3.3V )
+  ( 10 ? )
+  ( 11 /MOSI )
+  ( 12 /SCLK )
+  ( 13 /MISO )
+  ( 14 LOGICGND )
+ )
+ ( /4F5B8679 $noname$ USBPWR1 JUMPER
+  ( 1 LOGICGND )
+  ( 2 N-000194 )
+ )
+ ( /4F58F60D SOT23 X-CONN1 CONN_4
+  ( 1 N-000103 )
+  ( 2 N-000127 )
+  ( 3 N-000100 )
+  ( 4 N-000126 )
+ )
+ ( /4F58F372 $noname$ X-DRIVER1 A4982
+  ( 1 N-000098 )
+  ( 2 N-000099 )
+  ( 3 N-000097 )
+  ( 4 N-000096 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 N-000106 )
+  ( 8 N-000107 )
+  ( 9 N-000106 )
+  ( 10 LOGICGND )
+  ( 11 ? )
+  ( 12 /X-REF )
+  ( 13 LOGICGND )
+  ( 14 ? )
+  ( 15 N-000100 )
+  ( 16 VMOT )
+  ( 17 N-000129 )
+  ( 18 N-000126 )
+  ( 19 N-000127 )
+  ( 20 N-000125 )
+  ( 21 VMOT )
+  ( 22 N-000103 )
+  ( 23 ? )
+  ( 24 LOGICGND )
+  ( EPAD LOGICGND )
+ )
+ ( /4F591364 $noname$ X1 16.000
+  ( 1 N-000013 )
+  ( 2 N-000081 )
+ )
+ ( /4F591158 $noname$ Y-CONN1 CONN_4
+  ( 1 N-000128 )
+  ( 2 N-000163 )
+  ( 3 N-000094 )
+  ( 4 N-000093 )
+ )
+ ( /4F591161 $noname$ Y-DRIVER1 A4982
+  ( 1 N-000162 )
+  ( 2 N-000170 )
+  ( 3 N-000161 )
+  ( 4 N-000160 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 N-000181 )
+  ( 8 N-000159 )
+  ( 9 N-000181 )
+  ( 10 LOGICGND )
+  ( 11 ? )
+  ( 12 /Y-REF )
+  ( 13 LOGICGND )
+  ( 14 ? )
+  ( 15 N-000094 )
+  ( 16 VMOT )
+  ( 17 N-000152 )
+  ( 18 N-000093 )
+  ( 19 N-000163 )
+  ( 20 N-000157 )
+  ( 21 VMOT )
+  ( 22 N-000128 )
+  ( 23 ? )
+  ( 24 LOGICGND )
+  ( EPAD LOGICGND )
+ )
+ ( /4F5911D7 $noname$ Z-CONN1 CONN_4
+  ( 1 N-000175 )
+  ( 2 N-000143 )
+  ( 3 N-000172 )
+  ( 4 N-000142 )
+ )
+ ( /4F5911CE $noname$ Z-DRIVER1 A4982
+  ( 1 N-000168 )
+  ( 2 N-000164 )
+  ( 3 N-000167 )
+  ( 4 N-000166 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 N-000182 )
+  ( 8 N-000165 )
+  ( 9 N-000182 )
+  ( 10 LOGICGND )
+  ( 11 ? )
+  ( 12 /Z-REF )
+  ( 13 LOGICGND )
+  ( 14 ? )
+  ( 15 N-000172 )
+  ( 16 VMOT )
+  ( 17 N-000171 )
+  ( 18 N-000142 )
+  ( 19 N-000143 )
+  ( 20 N-000178 )
+  ( 21 VMOT )
+  ( 22 N-000175 )
+  ( 23 ? )
+  ( 24 LOGICGND )
+  ( EPAD LOGICGND )
+ )
+ ( /4F591228 $noname$ Z-DRIVER2 A4982
+  ( 1 N-000014 )
+  ( 2 N-000018 )
+  ( 3 N-000145 )
+  ( 4 N-000144 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 N-000195 )
+  ( 8 N-000017 )
+  ( 9 N-000195 )
+  ( 10 LOGICGND )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 LOGICGND )
+  ( 14 ? )
+  ( 15 N-000150 )
+  ( 16 VMOT )
+  ( 17 N-000149 )
+  ( 18 N-000147 )
+  ( 19 N-000146 )
+  ( 20 N-000148 )
+  ( 21 VMOT )
+  ( 22 N-000151 )
+  ( 23 ? )
+  ( 24 LOGICGND )
+  ( EPAD LOGICGND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ CP*
+ SM*
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ CP*
+ SM*
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ CP*
+ SM*
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ CP*
+ SM*
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ CP*
+ SM*
+$endlist
+$component C28
+ CP*
+ SM*
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component C33
+ CP*
+ SM*
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
+$endlist
+$component C36
+ SM*
+ C?
+ C1-1
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ CP*
+ SM*
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

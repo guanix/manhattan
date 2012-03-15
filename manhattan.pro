@@ -1,6 +1,6 @@
-update=Mon 12 Mar 2012 05:43:36 PM EDT
+update=Thu 15 Mar 2012 04:42:51 PM EDT
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetITyp=0
@@ -77,8 +77,6 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -143,3 +141,5 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=at90usb1287-au
+[general]
+version=1
