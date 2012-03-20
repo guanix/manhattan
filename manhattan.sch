@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 15 Mar 2012 04:26:36 PM EDT
+EESchema Schematic File Version 2  date Tue 20 Mar 2012 10:49:40 AM EDT
 LIBS:manhattan
 LIBS:power
 LIBS:device
@@ -38,7 +38,7 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 mar 2012"
+Date "20 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,9 +46,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 11200 8350
-NoConn ~ 10100 8150
-NoConn ~ 11200 8250
+Text Label 5300 7700 0    60   ~ 0
+SCK
+Text Label 5250 7600 0    60   ~ 0
+MOSI
+Text Label 5250 7500 0    60   ~ 0
+MISO
+Wire Wire Line
+	5450 7700 5150 7700
+Wire Wire Line
+	5450 7500 5150 7500
+Wire Wire Line
+	12250 6650 11950 6650
+Wire Wire Line
+	10850 6750 11150 6750
+Wire Wire Line
+	10850 6550 11150 6550
 Wire Wire Line
 	9750 8250 10100 8250
 Connection ~ 1850 9200
@@ -79,11 +92,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 8050 10100 8050
 Wire Notes Line
-	12500 7300 10150 7300
-Wire Notes Line
 	12500 7300 12500 5950
-Wire Notes Line
-	12500 5950 10150 5950
 Wire Notes Line
 	8500 5900 6150 5900
 Wire Notes Line
@@ -113,30 +122,22 @@ Wire Wire Line
 Wire Wire Line
 	14800 5750 14800 5300
 Connection ~ 14800 5750
-Wire Notes Line
-	10150 5950 10150 7300
 Wire Wire Line
-	12200 6900 11750 6900
+	10400 6850 9950 6850
 Wire Wire Line
-	12200 6700 11750 6700
+	10400 6650 9950 6650
 Wire Wire Line
-	12200 6500 11750 6500
+	10400 6450 9950 6450
 Wire Wire Line
-	10500 7000 10950 7000
+	8700 6950 9150 6950
 Wire Wire Line
-	10500 6800 10950 6800
+	8700 6750 9150 6750
 Wire Wire Line
-	10500 6600 10950 6600
+	8700 6550 9150 6550
 Wire Wire Line
-	10500 6400 10950 6400
+	8700 6350 9150 6350
 Wire Wire Line
 	5400 9800 5150 9800
-Wire Wire Line
-	9750 6600 9500 6600
-Wire Wire Line
-	9750 6500 9500 6500
-Wire Wire Line
-	9600 6900 9500 6900
 Connection ~ 15050 5750
 Wire Wire Line
 	15950 5300 15950 5750
@@ -1108,40 +1109,21 @@ Wire Notes Line
 Wire Notes Line
 	16450 4100 12550 4100
 Wire Wire Line
-	9500 6800 9600 6800
-Wire Wire Line
-	9600 6800 9600 7050
-Connection ~ 9600 6900
-Wire Wire Line
-	9750 6400 9500 6400
-Wire Wire Line
-	9500 6700 9850 6700
-Wire Wire Line
-	9850 6700 9850 6300
-Wire Wire Line
 	5400 9700 5150 9700
-Wire Notes Line
-	8550 7300 8550 5950
-Wire Notes Line
-	8550 7300 10100 7300
-Wire Notes Line
-	10100 7300 10100 5950
-Wire Notes Line
-	10100 5950 8550 5950
 Wire Wire Line
-	10500 6500 10950 6500
+	8700 6450 9150 6450
 Wire Wire Line
-	10500 6700 10950 6700
+	8700 6650 9150 6650
 Wire Wire Line
-	10500 6900 10950 6900
+	8700 6850 9150 6850
 Wire Wire Line
-	12200 6400 11750 6400
+	10400 6350 9950 6350
 Wire Wire Line
-	12200 6600 11750 6600
+	10400 6550 9950 6550
 Wire Wire Line
-	12200 6800 11750 6800
+	10400 6750 9950 6750
 Wire Wire Line
-	12200 7000 11750 7000
+	10400 6950 9950 6950
 Wire Wire Line
 	14750 4550 14800 4550
 Wire Wire Line
@@ -1209,6 +1191,48 @@ Wire Wire Line
 Connection ~ 11750 8150
 Wire Wire Line
 	9750 8350 10100 8350
+Wire Notes Line
+	12500 7300 8550 7300
+Wire Notes Line
+	8550 7300 8550 5950
+Wire Notes Line
+	8550 5950 12500 5950
+Wire Wire Line
+	10850 6650 11150 6650
+Wire Wire Line
+	12250 6550 11950 6550
+Wire Wire Line
+	12250 6750 11950 6750
+Wire Wire Line
+	5450 7600 5150 7600
+Text Label 2500 6400 0    60   ~ 0
+RESET
+Text Label 11850 6750 0    60   ~ 0
+LOGICGND
+Text Label 12050 6650 0    60   ~ 0
+MOSI
+Text Label 12100 6550 0    60   ~ 0
+VCC
+Text Label 10850 6750 0    60   ~ 0
+RESET
+Text Label 10850 6650 0    60   ~ 0
+SCK
+Text Label 10850 6550 0    60   ~ 0
+MISO
+$Comp
+L CONN_3X2 ICSP
+U 1 1 4F689823
+P 11550 6700
+F 0 "ICSP" H 11550 6950 50  0000 C CNN
+F 1 "CONN_3X2" V 11550 6750 40  0000 C CNN
+	1    11550 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 8550 6100 0    120  ~ 0
+Expansion header and ICSP
+NoConn ~ 11200 8350
+NoConn ~ 10100 8150
+NoConn ~ 11200 8250
 NoConn ~ 11200 8450
 Text Label 9750 8350 0    60   ~ 0
 SDA
@@ -1404,56 +1428,19 @@ F 1 "20A" H 14400 4500 40  0000 C CNN
 $EndComp
 Text Notes 8550 7500 0    120  ~ 0
 Stepper current control
-Text Notes 10150 6100 0    120  ~ 0
-Expansion header
 $Comp
 L CONN_7X2 P5
 U 1 1 4F5BC3D9
-P 11350 6700
-F 0 "P5" H 11350 7100 60  0000 C CNN
-F 1 "CONN_7X2" V 11350 6700 60  0000 C CNN
-	1    11350 6700
+P 9550 6650
+F 0 "P5" H 9550 7050 60  0000 C CNN
+F 1 "CONN_7X2" V 9550 6650 60  0000 C CNN
+	1    9550 6650
 	1    0    0    -1  
 $EndComp
-Text Notes 8550 6100 0    120  ~ 0
-FTDI
 Text Label 5150 9800 0    60   ~ 0
 RX
 Text Label 5150 9700 0    60   ~ 0
 TX
-Text Label 9500 6600 0    60   ~ 0
-RX
-Text Label 9500 6400 0    60   ~ 0
-RESET
-Text Label 9500 6500 0    60   ~ 0
-TX
-$Comp
-L VCC #PWR012
-U 1 1 4F5BB50E
-P 9850 6300
-F 0 "#PWR012" H 9850 6450 30  0001 C CNN
-F 1 "VCC" H 9850 6450 30  0000 C CNN
-	1    9850 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L LOGICGND #PWR013
-U 1 1 4F5BB4F6
-P 9600 7100
-F 0 "#PWR013" H 9600 7100 30  0001 C CNN
-F 1 "LOGICGND" H 9600 7030 30  0001 C CNN
-	1    9600 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_6 P4
-U 1 1 4F5BB4F1
-P 9150 6650
-F 0 "P4" V 9100 6650 60  0000 C CNN
-F 1 "CONN_6" V 9200 6650 60  0000 C CNN
-	1    9150 6650
-	-1   0    0    1   
-$EndComp
 Text Notes 12550 4250 0    120  ~ 0
 MOSFETs
 $Comp
