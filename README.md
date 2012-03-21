@@ -1,6 +1,14 @@
 Manhattan Electronics for RepRap
 ================================
 
-This design is inspired by [Melzi](http://reprap.org/wiki/Melzi) with a stepper module design from [4pi](https://github.com/kliment/reup) based on the Allegro A4982 stepper driver. It will use an Atmel AT90USB1286 microcontroller with built-in USB support.
+This design is inspired by [Melzi](http://reprap.org/wiki/Melzi) with a stepper module design inspired by [4pi](https://github.com/kliment/reup).
 
-It is designed in KiCad to avoid the board size limitations of the free edition of EAGLE.
+*Status*: This is very much a work in progress. The schematic is done and I am currently working on footprints.
+
+Features
+--------
+
+* Atmel AT90USB1286 microcontroller with built-in USB serial support
+* Allegro A4982 stepper driver in TSSOP package
+* Digital potentiometer for current control, avoiding expensive and annoying trimpots
+* Designed in [KiCad](http://kicad.sourceforge.net/), an open source EDA suite
