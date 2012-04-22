@@ -1,6 +1,6 @@
-update=Fri 16 Mar 2012 01:23:47 PM EDT
+update=Sat 21 Apr 2012 10:46:25 PM EDT
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetITyp=0
@@ -75,8 +75,6 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=at90usb1287-au
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=320
@@ -107,3 +105,7 @@ LibName8=display
 LibName9=valves
 LibName10=led
 LibName11=dip_sockets
+LibName12=opendous
+LibName13=smd_transistors
+[general]
+version=1
