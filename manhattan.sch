@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 22 Apr 2012 10:06:44 AM EDT
+EESchema Schematic File Version 2  date Fri 11 May 2012 01:42:47 PM EDT
 LIBS:manhattan
 LIBS:power
 LIBS:device
@@ -38,7 +38,7 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "22 apr 2012"
+Date "11 may 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,6 +46,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	6800 8100 6800 8450
+Wire Wire Line
+	8000 6350 7400 6350
+Connection ~ 15650 5750
+Wire Wire Line
+	15650 5650 15650 5750
+Connection ~ 14500 5750
+Wire Wire Line
+	14500 5650 14500 5750
+Wire Wire Line
+	13300 5150 13300 5100
 Wire Wire Line
 	8600 7150 8600 7050
 Wire Wire Line
@@ -66,8 +78,6 @@ Wire Notes Line
 	10550 5950 6150 5950
 Wire Wire Line
 	12650 7050 13100 7050
-Wire Wire Line
-	7550 6350 7400 6350
 Wire Wire Line
 	8150 7100 8250 7100
 Wire Wire Line
@@ -187,14 +197,7 @@ Wire Notes Line
 Wire Notes Line
 	12550 5900 12550 4100
 Wire Wire Line
-	15050 5750 15050 5600
-Connection ~ 13900 5750
-Wire Wire Line
-	13900 5600 13900 5750
-Wire Wire Line
 	14300 5750 14300 5800
-Wire Wire Line
-	12700 5600 12700 5750
 Wire Wire Line
 	14400 4950 13900 4950
 Wire Wire Line
@@ -204,7 +207,7 @@ Wire Wire Line
 Wire Wire Line
 	15100 5100 15050 5100
 Wire Wire Line
-	13250 5100 13300 5100
+	13300 5100 13250 5100
 Wire Wire Line
 	14450 5100 14500 5100
 Wire Wire Line
@@ -254,8 +257,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 9450 6800 9250
 Connection ~ 6800 8350
-Wire Wire Line
-	6800 8450 6800 8150
 Wire Wire Line
 	7400 6700 7400 6550
 Connection ~ 7500 8950
@@ -1077,10 +1078,7 @@ Wire Wire Line
 Connection ~ 13600 5750
 Connection ~ 14300 5750
 Wire Wire Line
-	12700 5750 15950 5750
-Wire Wire Line
-	15950 5750 15950 5300
-Connection ~ 15050 5750
+	15950 5300 15950 5750
 Wire Wire Line
 	5400 9800 5150 9800
 Wire Wire Line
@@ -1178,8 +1176,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 7550 1350 7500
 Wire Wire Line
-	7950 6350 8000 6350
-Wire Wire Line
 	7400 6550 8000 6550
 Wire Wire Line
 	14350 7050 13900 7050
@@ -1199,6 +1195,26 @@ Wire Wire Line
 	8000 7750 8000 7850
 Wire Wire Line
 	8600 7750 8600 7650
+Wire Wire Line
+	13300 5650 13300 5750
+Connection ~ 13300 5750
+Wire Wire Line
+	14500 5100 14500 5150
+Wire Wire Line
+	15650 5100 15650 5150
+Wire Wire Line
+	13300 5750 15950 5750
+Wire Wire Line
+	6800 7700 6800 7650
+$Comp
+L DIODE D?
+U 1 1 4FAAB613
+P 6800 7900
+F 0 "D?" H 6800 8000 40  0000 C CNN
+F 1 "DIODE" H 6800 7800 40  0000 C CNN
+	1    6800 7900
+	0    1    1    0   
+$EndComp
 $Comp
 L LOGICGND #PWR?
 U 1 1 4F941059
@@ -1301,15 +1317,6 @@ F 0 "P?" H 13500 7150 60  0000 C CNN
 F 1 "CONN_8X2" V 13500 6700 50  0000 C CNN
 	1    13500 6700
 	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D?
-U 1 1 4F7FAB14
-P 7750 6350
-F 0 "D?" H 7750 6450 40  0000 C CNN
-F 1 "DIODE" H 7750 6250 40  0000 C CNN
-	1    7750 6350
-	-1   0    0    1   
 $EndComp
 NoConn ~ 1650 7500
 $Comp
@@ -1647,28 +1654,28 @@ HOTEND
 $Comp
 L R R30
 U 1 1 4F5BB1E0
-P 15050 5350
-F 0 "R30" V 15130 5350 50  0000 C CNN
-F 1 "100K" V 15050 5350 50  0000 C CNN
-	1    15050 5350
+P 15650 5400
+F 0 "R30" V 15730 5400 50  0000 C CNN
+F 1 "100K" V 15650 5400 50  0000 C CNN
+	1    15650 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R28
 U 1 1 4F5BB1DD
-P 13900 5350
-F 0 "R28" V 13980 5350 50  0000 C CNN
-F 1 "100K" V 13900 5350 50  0000 C CNN
-	1    13900 5350
+P 14500 5400
+F 0 "R28" V 14580 5400 50  0000 C CNN
+F 1 "100K" V 14500 5400 50  0000 C CNN
+	1    14500 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R24
 U 1 1 4F5BB1D7
-P 12700 5350
-F 0 "R24" V 12780 5350 50  0000 C CNN
-F 1 "100K" V 12700 5350 50  0000 C CNN
-	1    12700 5350
+P 13300 5400
+F 0 "R24" V 13380 5400 50  0000 C CNN
+F 1 "100K" V 13300 5400 50  0000 C CNN
+	1    13300 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1922,10 +1929,10 @@ $EndComp
 $Comp
 L VMOT #PWR26
 U 1 1 4F5B9BC0
-P 6800 8150
-F 0 "#PWR26" H 6800 8300 30  0001 C CNN
-F 1 "VMOT" H 6800 8300 30  0000 C CNN
-	1    6800 8150
+P 6800 7650
+F 0 "#PWR26" H 6800 7800 30  0001 C CNN
+F 1 "VMOT" H 6800 7800 30  0000 C CNN
+	1    6800 7650
 	1    0    0    -1  
 $EndComp
 $Comp
