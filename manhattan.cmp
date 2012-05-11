@@ -1,108 +1,101 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Wed 04 Apr 2012 05:20:45 PM EDT
-
-BeginCmp
-TimeStamp = /4F5BB0FA;
-Reference = BED_CONN1;
-ValeurCmp = CONN_2;
-IdModule  = SCREW-5MM-2;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 11 May 2012 03:31:29 PM EDT
 
 BeginCmp
 TimeStamp = /4F60B678;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5916E2;
 Reference = C2;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F58F4C1;
 Reference = C3;
 ValeurCmp = 220n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5A4040;
 Reference = C4;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5A4036;
 Reference = C5;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F58F382;
 Reference = C6;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F58F479;
 Reference = C7;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5A403C;
 Reference = C8;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F591377;
 Reference = C9;
 ValeurCmp = 22pF;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F59137C;
 Reference = C10;
 ValeurCmp = 22pF;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F58F455;
 Reference = C11;
 ValeurCmp = 220n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60B67C;
 Reference = C12;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5915D3;
 Reference = C13;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F591714;
 Reference = C14;
 ValeurCmp = 1uF;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -116,35 +109,35 @@ BeginCmp
 TimeStamp = /4F58F3E6;
 Reference = C16;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F59115B;
 Reference = C17;
 ValeurCmp = 220n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F591160;
 Reference = C18;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F59115C;
 Reference = C19;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F59115D;
 Reference = C20;
 ValeurCmp = 220n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -158,7 +151,7 @@ BeginCmp
 TimeStamp = /4F5B9813;
 Reference = C22;
 ValeurCmp = 10uF;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
@@ -179,35 +172,35 @@ BeginCmp
 TimeStamp = /4F5BA59C;
 Reference = C25;
 ValeurCmp = 10uF;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5B9816;
 Reference = C26;
 ValeurCmp = 10uF;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5B9BFB;
 Reference = C27;
 ValeurCmp = 10uF;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BA608;
 Reference = C28;
 ValeurCmp = 10uF;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5911D4;
 Reference = C29;
 ValeurCmp = 220n;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -288,9 +281,9 @@ IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5B98FC;
+TimeStamp = /4FAAB613;
 Reference = D1;
-ValeurCmp = LED;
+ValeurCmp = DIODE;
 IdModule  = LED-0805;
 EndCmp
 
@@ -302,17 +295,31 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F591228;
-Reference = E-DRIVER1;
+TimeStamp = /4F58F372;
+Reference = DRV1;
 ValeurCmp = A4982;
 IdModule  = TSSOP-24-EXP;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F59121F;
-Reference = E0-CONN1;
-ValeurCmp = CONN_4;
-IdModule  = SCREW-3.5MM-4;
+TimeStamp = /4F591161;
+Reference = DRV2;
+ValeurCmp = A4982;
+IdModule  = TSSOP-24-EXP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5911CE;
+Reference = DRV3;
+ValeurCmp = A4982;
+IdModule  = TSSOP-24-EXP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F591228;
+Reference = DRV4;
+ValeurCmp = A4982;
+IdModule  = TSSOP-24-EXP;
 EndCmp
 
 BeginCmp
@@ -330,31 +337,10 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5BB0FD;
-Reference = FAN_CONN1;
-ValeurCmp = CONN_2;
-IdModule  = SCREW-5MM-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5BB0F3;
-Reference = HOTEND_CONN1;
-ValeurCmp = CONN_2;
-IdModule  = SCREW-5MM-2;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F689823;
 Reference = ICSP1;
 ValeurCmp = CONN_3X2;
 IdModule  = pin_array_3x2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F59161C;
-Reference = J1;
-ValeurCmp = USB;
-IdModule  = MINI-USB-B-UX60SC-MB-5ST;
 EndCmp
 
 BeginCmp
@@ -372,34 +358,6 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5B95D1;
-Reference = K1;
-ValeurCmp = CONN_3;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5B95F6;
-Reference = K2;
-ValeurCmp = CONN_3;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5B95FA;
-Reference = K3;
-ValeurCmp = CONN_3;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5B9600;
-Reference = K4;
-ValeurCmp = CONN_3;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F58DE06;
 Reference = MCU1;
 ValeurCmp = AT90USB1287-AU;
@@ -407,31 +365,17 @@ IdModule  = TQFP_64;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5B9724;
-Reference = P1;
+TimeStamp = /4F7FA882;
+Reference = P4;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = SCREW-3.5MM-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5B9CFE;
-Reference = P2;
-ValeurCmp = CONN_2;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5B972F;
-Reference = P3;
-ValeurCmp = CONN_2;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5BC3D9;
-Reference = P5;
-ValeurCmp = CONN_7X2;
-IdModule  = ;
+TimeStamp = /4F7FAB30;
+Reference = P9;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2;
 EndCmp
 
 BeginCmp
@@ -459,7 +403,7 @@ BeginCmp
 TimeStamp = /4F58F4DC;
 Reference = R1;
 ValeurCmp = 0R;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -529,14 +473,14 @@ BeginCmp
 TimeStamp = /4F5B9765;
 Reference = R11;
 ValeurCmp = 4K7_1%;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5B98F9;
+TimeStamp = /4F941054;
 Reference = R12;
-ValeurCmp = R;
-IdModule  = ;
+ValeurCmp = 10K;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -557,7 +501,7 @@ BeginCmp
 TimeStamp = /4F5B976A;
 Reference = R15;
 ValeurCmp = 4K7_1%;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -627,7 +571,7 @@ BeginCmp
 TimeStamp = /4F5BB18F;
 Reference = R25;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -655,7 +599,7 @@ BeginCmp
 TimeStamp = /4F5BB17B;
 Reference = R29;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -669,7 +613,7 @@ BeginCmp
 TimeStamp = /4F5BB186;
 Reference = R31;
 ValeurCmp = 100;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -687,10 +631,122 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /4F941046;
+Reference = R34;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /4F5914E6;
 Reference = RESETSW1;
 ValeurCmp = SW_PUSH;
 IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F58F60D;
+Reference = ST1;
+ValeurCmp = CONN_4;
+IdModule  = SCREW-3.5MM-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F591158;
+Reference = ST2;
+ValeurCmp = CONN_4;
+IdModule  = SCREW-3.5MM-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5911D7;
+Reference = ST3;
+ValeurCmp = CONN_4;
+IdModule  = SCREW-3.5MM-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F59121F;
+Reference = ST4;
+ValeurCmp = CONN_4;
+IdModule  = SCREW-3.5MM-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5B9CFE;
+Reference = ST5;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5BB0F3;
+Reference = ST6;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5BB0FA;
+Reference = ST7;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5BB0FD;
+Reference = ST8;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7FA843;
+Reference = ST9;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7FA86D;
+Reference = ST10;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7FA871;
+Reference = ST11;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F7FA873;
+Reference = ST12;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5B9724;
+Reference = ST13;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F5B972F;
+Reference = ST14;
+ValeurCmp = CONN_2;
+IdModule  = SCREW-3.5MM-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F937099;
+Reference = T1;
+ValeurCmp = FDN340P;
+IdModule  = DPAK;
 EndCmp
 
 BeginCmp
@@ -715,24 +771,17 @@ IdModule  = SO14N;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F5B8679;
-Reference = USBPWR1;
-ValeurCmp = JUMPER;
+TimeStamp = /4F7FAA6D;
+Reference = U4;
+ValeurCmp = MICROUSB;
 IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F58F60D;
-Reference = X-CONN1;
-ValeurCmp = CONN_4;
-IdModule  = SCREW-3.5MM-4;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F58F372;
-Reference = X-DRIVER1;
-ValeurCmp = A4982;
-IdModule  = TSSOP-24-EXP;
+TimeStamp = /4F936B05;
+Reference = U5;
+ValeurCmp = LM358;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -740,34 +789,6 @@ TimeStamp = /4F591364;
 Reference = X1;
 ValeurCmp = 16.000;
 IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F591158;
-Reference = Y-CONN1;
-ValeurCmp = CONN_4;
-IdModule  = SCREW-3.5MM-4;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F591161;
-Reference = Y-DRIVER1;
-ValeurCmp = A4982;
-IdModule  = TSSOP-24-EXP;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5911D7;
-Reference = Z-CONN1;
-ValeurCmp = CONN_4;
-IdModule  = SCREW-3.5MM-4;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F5911CE;
-Reference = Z-DRIVER1;
-ValeurCmp = A4982;
-IdModule  = SCREW-3.5MM-4;
 EndCmp
 
 EndListe
