@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Fri 11 May 2012 03:31:29 PM EDT
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 12 May 2012 09:45:23 PM EDT
 
 BeginCmp
 TimeStamp = /4F60B678;
@@ -165,7 +165,7 @@ BeginCmp
 TimeStamp = /4F59115F;
 Reference = C24;
 ValeurCmp = 100n;
-IdModule  = SM0603;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -291,7 +291,7 @@ BeginCmp
 TimeStamp = /4F60B546;
 Reference = DP1;
 ValeurCmp = MCP4451;
-IdModule  = ;
+IdModule  = TSSOP20_PW;
 EndCmp
 
 BeginCmp
@@ -333,7 +333,7 @@ BeginCmp
 TimeStamp = /4F5E4A7C;
 Reference = F2;
 ValeurCmp = 20A;
-IdModule  = ;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -354,7 +354,35 @@ BeginCmp
 TimeStamp = /4F5B85A7;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDCBA;
+Reference = JP2;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDD41;
+Reference = JP3;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDDD4;
+Reference = JP4;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDE6B;
+Reference = JP5;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 BeginCmp
@@ -382,63 +410,63 @@ BeginCmp
 TimeStamp = /4F5BB141;
 Reference = Q1;
 ValeurCmp = MOSFET_N;
-IdModule  = DPAK;
+IdModule  = DPAK-MOSFET;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BB162;
 Reference = Q2;
 ValeurCmp = MOSFET_N;
-IdModule  = DPAK;
+IdModule  = DPAK-MOSFET;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BB166;
 Reference = Q3;
 ValeurCmp = MOSFET_N;
-IdModule  = DPAK;
+IdModule  = DPAK-MOSFET;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F58F4DC;
 Reference = R1;
 ValeurCmp = 0R;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F58F509;
 Reference = R2;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5B85D7;
 Reference = R3;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F591649;
 Reference = R4;
 ValeurCmp = 22;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F59164D;
 Reference = R5;
 ValeurCmp = 22;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5914F3;
 Reference = R6;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -466,21 +494,21 @@ BeginCmp
 TimeStamp = /4F591159;
 Reference = R10;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5B9765;
 Reference = R11;
 ValeurCmp = 4K7_1%;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F941054;
 Reference = R12;
 ValeurCmp = 10K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -501,7 +529,7 @@ BeginCmp
 TimeStamp = /4F5B976A;
 Reference = R15;
 ValeurCmp = 4K7_1%;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -515,35 +543,35 @@ BeginCmp
 TimeStamp = /4F5911D6;
 Reference = R17;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60B5F7;
 Reference = R18;
 ValeurCmp = 20K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60B60E;
 Reference = R19;
 ValeurCmp = 20K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60B60B;
 Reference = R20;
 ValeurCmp = 20K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F60B616;
 Reference = R21;
 ValeurCmp = 20K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -564,14 +592,14 @@ BeginCmp
 TimeStamp = /4F5BB1D7;
 Reference = R24;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BB18F;
 Reference = R25;
 ValeurCmp = 100;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -585,35 +613,35 @@ BeginCmp
 TimeStamp = /4F591220;
 Reference = R27;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BB1DD;
 Reference = R28;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BB17B;
 Reference = R29;
 ValeurCmp = 100;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BB1E0;
 Reference = R30;
 ValeurCmp = 100K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5BB186;
 Reference = R31;
 ValeurCmp = 100;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -634,7 +662,91 @@ BeginCmp
 TimeStamp = /4F941046;
 Reference = R34;
 ValeurCmp = 10K;
-IdModule  = SM0603;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAED984;
+Reference = R35;
+ValeurCmp = 100K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAED957;
+Reference = R36;
+ValeurCmp = 100K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAED96C;
+Reference = R37;
+ValeurCmp = 100K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAED9A1;
+Reference = R38;
+ValeurCmp = 100K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDC43;
+Reference = R39;
+ValeurCmp = 4K7;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDC88;
+Reference = R40;
+ValeurCmp = 4K7;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDD12;
+Reference = R41;
+ValeurCmp = 4K7;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDD1E;
+Reference = R42;
+ValeurCmp = 4K7;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDD97;
+Reference = R43;
+ValeurCmp = 4K7;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDD9C;
+Reference = R44;
+ValeurCmp = 4K7;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDE49;
+Reference = R45;
+ValeurCmp = 4K7;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAEDE4D;
+Reference = R46;
+ValeurCmp = 4K7;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -746,14 +858,14 @@ BeginCmp
 TimeStamp = /4F937099;
 Reference = T1;
 ValeurCmp = FDN340P;
-IdModule  = DPAK;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F5B9BAD;
 Reference = U1;
 ValeurCmp = MC78M05CDTX;
-IdModule  = ;
+IdModule  = DPAK;
 EndCmp
 
 BeginCmp
