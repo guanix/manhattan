@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 13 May 2012 01:23:53 PM EDT
+EESchema Schematic File Version 2  date Thu 17 May 2012 11:12:53 AM EDT
 LIBS:manhattan
 LIBS:power
 LIBS:device
@@ -38,7 +38,7 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "13 may 2012"
+Date "17 may 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,6 +46,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	5300 4950 5300 4750
+Wire Wire Line
+	5300 4950 2700 4950
 Connection ~ 2750 2250
 Wire Wire Line
 	2700 2250 2700 2200
@@ -54,13 +58,13 @@ Connection ~ 2950 1650
 Wire Wire Line
 	2950 1600 2950 1900
 Wire Wire Line
-	2900 1900 2950 1900
+	2950 1900 2900 1900
 Wire Wire Line
 	2900 1900 2900 2250
 Connection ~ 2800 2200
 Connection ~ 2850 2250
 Wire Wire Line
-	2700 2250 2900 2250
+	2900 2250 2700 2250
 Wire Wire Line
 	3650 2400 3450 2400
 Wire Wire Line
@@ -170,9 +174,9 @@ Wire Notes Line
 Wire Wire Line
 	12650 7050 13100 7050
 Wire Wire Line
-	8150 7100 8250 7100
+	9350 6600 9450 6600
 Wire Wire Line
-	8250 7100 8250 7050
+	9450 6600 9450 6550
 Connection ~ 1050 7800
 Wire Wire Line
 	1750 7500 1750 7800
@@ -395,7 +399,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 4950 4250 5050
 Wire Wire Line
-	2700 4750 2700 4950
+	2700 4950 2700 4750
 Wire Wire Line
 	2700 4750 2750 4750
 Wire Notes Line
@@ -963,15 +967,9 @@ Connection ~ 1150 7250
 Wire Wire Line
 	3600 4750 3600 4950
 Connection ~ 3600 4950
-Wire Wire Line
-	5200 4750 5200 4950
-Wire Wire Line
-	5200 4950 2700 4950
 Connection ~ 4400 4950
 Wire Wire Line
 	3300 4550 3600 4550
-Wire Wire Line
-	5200 4550 4900 4550
 Wire Wire Line
 	6900 5000 6900 5150
 Wire Wire Line
@@ -1094,9 +1092,9 @@ Connection ~ 14800 5750
 Wire Wire Line
 	14800 5750 14800 5300
 Wire Wire Line
-	7650 7100 7550 7100
+	8850 6600 8750 6600
 Wire Wire Line
-	7550 7100 7550 7050
+	8750 6600 8750 6550
 Wire Wire Line
 	6550 6500 6550 6350
 Wire Wire Line
@@ -1303,6 +1301,19 @@ Connection ~ 2750 2200
 Wire Wire Line
 	2700 2200 2900 2200
 Connection ~ 2850 2200
+Wire Wire Line
+	4900 4550 5300 4550
+Text Label 4900 4550 0    60   ~ 0
+E-STOP
+$Comp
+L CONN_2 ST?
+U 1 1 4FB51527
+P 5650 4650
+F 0 "ST?" V 5600 4650 40  0000 C CNN
+F 1 "CONN_2" V 5700 4650 40  0000 C CNN
+	1    5650 4650
+	1    0    0    -1  
+$EndComp
 $Comp
 L LOGICGND #PWR01
 U 1 1 4FAEDE7C
@@ -1652,15 +1663,6 @@ F 1 "CONN_2" V 1250 4650 40  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_2 ST12
-U 1 1 4F7FA873
-P 5550 4650
-F 0 "ST12" V 5500 4650 40  0000 C CNN
-F 1 "CONN_2" V 5600 4650 40  0000 C CNN
-	1    5550 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_2 ST11
 U 1 1 4F7FA871
 P 4750 4650
@@ -1872,10 +1874,10 @@ $EndComp
 $Comp
 L +12V #PWR022
 U 1 1 4F5E720A
-P 8250 7050
-F 0 "#PWR022" H 8250 7000 20  0001 C CNN
-F 1 "+12V" H 8250 7150 30  0000 C CNN
-	1    8250 7050
+P 9450 6550
+F 0 "#PWR022" H 9450 6500 20  0001 C CNN
+F 1 "+12V" H 9450 6650 30  0000 C CNN
+	1    9450 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1890,19 +1892,19 @@ $EndComp
 $Comp
 L FUSE F1
 U 1 1 4F5E4AA4
-P 7900 7100
-F 0 "F1" H 8000 7150 40  0000 C CNN
-F 1 "FUSE" H 7800 7050 40  0000 C CNN
-	1    7900 7100
+P 9100 6600
+F 0 "F1" H 9200 6650 40  0000 C CNN
+F 1 "FUSE" H 9000 6550 40  0000 C CNN
+	1    9100 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L VMOT #PWR024
 U 1 1 4F5E4AA0
-P 7550 7050
-F 0 "#PWR024" H 7550 7200 30  0001 C CNN
-F 1 "VMOT" H 7550 7200 30  0000 C CNN
-	1    7550 7050
+P 8750 6550
+F 0 "#PWR024" H 8750 6700 30  0001 C CNN
+F 1 "VMOT" H 8750 6700 30  0000 C CNN
+	1    8750 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2346,8 +2348,6 @@ F 1 "CONN_2" V 7300 5250 40  0000 C CNN
 $EndComp
 Text Notes 2250 4250 0    120  ~ 0
 Endstops
-Text Label 4900 4550 0    60   ~ 0
-E-STOP
 Text Label 4100 4550 0    60   ~ 0
 Z-STOP
 Text Label 3300 4550 0    60   ~ 0
